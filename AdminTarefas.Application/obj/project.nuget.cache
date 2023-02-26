@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "5Pdjfyx+8+E5UDO4xqp0X09YPFs8IANu2uZGa1LLFpRtM0Yd4OTCHxYOcGwTes2L//CasWacDZUY3GQkFsXsAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mathe\\source\\repos\\AdminTarefas\\AdminTarefas.Application\\AdminTarefas.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mathe\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\mediatr\\12.0.0\\mediatr.12.0.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\mediatr.contracts\\2.0.0\\mediatr.contracts.2.0.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
