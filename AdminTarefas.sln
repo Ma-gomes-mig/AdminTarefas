@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdminTarefas.Infra.IoC", "A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdminTarefas.WebUI", "AdminTarefas.WebUI\AdminTarefas.WebUI.csproj", "{B04990FC-72AD-4973-B3C0-23D7968F0855}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminTarefas.Domain.Teste", "AdminTarefas.Domain.Teste\AdminTarefas.Domain.Teste.csproj", "{76B726C8-08C4-4616-A2A5-24F066F0E5F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdminTarefas.Domain.Teste", "AdminTarefas.Domain.Teste\AdminTarefas.Domain.Teste.csproj", "{76B726C8-08C4-4616-A2A5-24F066F0E5F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,9 +1,19 @@
-﻿using AdminTarefas.Application.Interfaces;
+﻿//using AdminTarefas.Application.Interfaces;
+//using AdminTarefas.Application.Mappings;
+//using AdminTarefas.Application.Services;
+//using AdminTarefas.Domain.Interfaces;
+//using AdminTarefas.Infra.Data.Context;
+//using AdminTarefas.Infra.Data.Repositories;
+//using Microsoft.EntityFrameworkCore;
+//using Microsoft.Extensions.Configuration;
+//using Microsoft.Extensions.DependencyInjection;
+using AdminTarefas.Application.Interfaces; 
 using AdminTarefas.Application.Mappings;
 using AdminTarefas.Application.Services;
 using AdminTarefas.Domain.Interfaces;
 using AdminTarefas.Infra.Data.Context;
 using AdminTarefas.Infra.Data.Repositories;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,7 +29,7 @@ namespace AdminTarefas.Infra.IoC
             options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
              b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
             //Registrando o Repository
-            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();  
             services.AddScoped<IEmplooyerRepository, EmplooyerRepository>();
             services.AddScoped<IAssignmentRepository, AssignmentRepository>();
 
